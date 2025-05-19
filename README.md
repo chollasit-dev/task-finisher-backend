@@ -1,14 +1,12 @@
-# Express Minimal Starter
+# Task Finisher Backend
 
-My Express starter template repository with minimal dependencies essential to
-start writing an Express app. This app came with a placeholders of database for
-both LibSQL (SQLite forked, via Turso) and MongoDB.
+A back-end part of Task Finisher, a complete CRUD TODO app featuring minimal,
+clean, easy-to-use interface.
 
-## Features
-
-- **Error Handling**: Centralized error management for better debugging.
-- **Environment Management**: Dynamic environment variable loading for flexible
-  configuration.
+The purpose of this app is primarily for personal uses (may available for few
+users testing) to streamline my task managing and note taking. This project is a
+part of my JavaScript/TypeScript learning journey for both front-end and
+back-end development in JSD9 bootcamp program.
 
 ## Getting Started
 
@@ -24,14 +22,13 @@ Ensure you have the following installed:
 Clone the repository and install dependencies:
 
 ```sh
-git clone https://github.com/chollasit-dev/express-minimal-starter.git
-cd express-minimal-starter
+git clone https://github.com/chollasit-dev/task-finisher-backend.git &&
+cd task-finisher-backend &&
 pnpm install
 ```
 
 ### Environment Setup
 
-1. Copy the example environment file:
 1. create `.env` to define an initial variable for loading environment
    dynamically when developing:
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "name": "express-minimal-starter",
-  "version": "0.1.0",
+  "name": "task-finisher-backend",
+  "version": "1.0.0",
   "license": "ISC",
   "author": "chollasit-dev",
   "type": "module",
